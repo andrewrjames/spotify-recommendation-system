@@ -14,7 +14,21 @@ To develop a machine learning-based system that:
 
 ## 📁 Project Structure
 
-Spotify_Recommendation_System/ ├── data/ │ └── top_10000_1960-now.csv ├── docs/ │ └── Team Presentation.pdf └── notebooks/ ├── Data Cleaning.ipynb ├── RecommendationSystem_v2.ipynb ├── Song Clustering.ipynb └── Team6_Spotify_prediction.ipynb
+```text
+/Spotify_Recommendation_System
+├── data/                    # Source dataset (top 10,000 Spotify songs)
+│   └── top_10000_1960-now.csv
+├── docs/                    # Presentation and project documentation
+│   └── Team Presentation.pdf
+├── notebooks/               # Jupyter notebooks for data analysis and modeling
+│   ├── Data Cleaning.ipynb          # Preprocessing and cleaning steps
+│   ├── RecommendationSystem_v2.ipynb # Final recommender system implementation
+│   ├── Song Clustering.ipynb        # K-Means song clustering
+│   └── Team6_Spotify_prediction.ipynb # Popularity prediction models
+├── requirements.txt         # Python package dependencies
+├── .gitignore               # Ignore unnecessary files in version control
+└── README.md                # Project overview and instructions
+```
 
 
 ## 🧠 Methodology
